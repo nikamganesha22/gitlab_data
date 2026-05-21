@@ -1,0 +1,218 @@
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project
+$ ls -l
+total 16
+-rw-r--r-- 1 Ganesh 197121  165 Nov  5 18:05 Dockerfile
+-rw-r--r-- 1 Ganesh 197121  217 Nov  5 18:05 README.md
+-rw-r--r-- 1 Ganesh 197121  500 Nov  5 18:05 build.gradle
+drwxr-xr-x 1 Ganesh 197121    0 Nov  5 18:05 gradle/
+-rwxr-xr-x 1 Ganesh 197121 5764 Nov  5 18:05 gradlew*
+-rw-r--r-- 1 Ganesh 197121 2942 Nov  5 18:05 gradlew.bat
+-rw-r--r-- 1 Ganesh 197121   31 Nov  5 18:05 settings.gradle
+drwxr-xr-x 1 Ganesh 197121    0 Nov  5 18:05 src/
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project
+$ git init.
+git: 'init.' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project
+$ git init
+Initialized empty Git repository in C:/Users/Ganesh/Downloads/my_project/.git/
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ git add .
+warning: in the working copy of '.github/workflows/ci.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Dockerfile', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'build.gradle', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'gradle/wrapper/gradle-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'gradlew', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'settings.gradle', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/App.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/logback.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/test/java/AppTest.java', LF will be replaced by CRLF the next time Git touches it
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ git commit -m "Add all files in folder"
+[main (root-commit) 8940b18] Add all files in folder
+ 14 files changed, 466 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 .gitignore
+ create mode 100644 Dockerfile
+ create mode 100644 README.md
+ create mode 100644 build.gradle
+ create mode 100644 gradle/wrapper/gradle-wrapper.jar
+ create mode 100644 gradle/wrapper/gradle-wrapper.properties
+ create mode 100644 gradlew
+ create mode 100644 gradlew.bat
+ create mode 100644 settings.gradle
+ create mode 100644 src/main/java/com/example/App.java
+ create mode 100644 src/main/resources/application.properties
+ create mode 100644 src/main/resources/logback.xml
+ create mode 100644 src/test/java/AppTest.java
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ git remote add origin https://github.com/rocky019/my-project1.git
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/rocky019/my-project1.git'
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ ^C
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$
+^[[200~
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+bash: $'\E[200~': command not found
+$ ^C
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+bash: syntax error near unexpected token `('
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ $ ^C
+bash: $: command not found
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+bash: syntax error near unexpected token `('
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ $
+bash: $: command not found
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ Git pull origin https://github.com/rocky019/my-project1.git
+fatal: invalid refspec 'https://github.com/rocky019/my-project1.git'
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ Git push origin https://github.com/rocky019/my-project1.git
+fatal: invalid refspec 'https://github.com/rocky019/my-project1.git'
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ git remote add origin https://github.com/rocky019/my-project1.git
+error: remote origin already exists.
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ git branch
+* main
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/rocky019/my-project1.git'
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ git log
+commit 8940b18362d743ceab94583d1aba42a0780cda8f (HEAD -> main)
+Author: unknown <ganeshnikam019@gmail.com>
+Date:   Tue Nov 5 18:52:35 2024 +0530
+
+    Add all files in folder
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ cat a.txt b.txt
+cat: a.txt: No such file or directory
+cat: b.txt: No such file or directory
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ cat > a.txt b.txt
+cat: b.txt: No such file or directory
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ cat > a.txt
+ls -0l
+ls -l
+
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ touch a.txt b.txt
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ ls -l
+total 17
+-rw-r--r-- 1 Ganesh 197121  165 Nov  5 18:05 Dockerfile
+-rw-r--r-- 1 Ganesh 197121  217 Nov  5 18:05 README.md
+-rw-r--r-- 1 Ganesh 197121   13 Nov  5 20:05 a.txt
+-rw-r--r-- 1 Ganesh 197121    0 Nov  5 20:05 b.txt
+-rw-r--r-- 1 Ganesh 197121  500 Nov  5 18:05 build.gradle
+drwxr-xr-x 1 Ganesh 197121    0 Nov  5 18:05 gradle/
+-rwxr-xr-x 1 Ganesh 197121 5764 Nov  5 18:05 gradlew*
+-rw-r--r-- 1 Ganesh 197121 2942 Nov  5 18:05 gradlew.bat
+-rw-r--r-- 1 Ganesh 197121   31 Nov  5 18:05 settings.gradle
+drwxr-xr-x 1 Ganesh 197121    0 Nov  5 18:05 src/
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ git add a.txt b.txt
+warning: in the working copy of 'a.txt', LF will be replaced by CRLF the next time Git touches it
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   a.txt
+        new file:   b.txt
+
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$ git commit -m "modified files"
+[main 84824fd] modified files
+ 2 files changed, 2 insertions(+)
+ create mode 100644 a.txt
+ create mode 100644 b.txt
+
+Ganesh@LAPTOP-GIAD6FTU MINGW64 ~/Downloads/my_project (main)
+$  git push  origin main
+Enumerating objects: 32, done.
+Counting objects: 100% (32/32), done.
+Delta compression using up to 18 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (32/32), 58.48 KiB | 3.90 MiB/s, done.
+Total 32 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/rocky019/my-project1.git
+ * [new branch]      main -> main
